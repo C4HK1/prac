@@ -1,0 +1,38 @@
+# Большие CSV файлы с данными (генерируются скриптами)
+**/data/jobs_*.csv
+**/data/*_metrics.csv
+**/data/*_study*.csv
+
+# Исключение: маленькие тестовые файлы можно оставить
+!**/data/jobs_1000.csv
+!**/data/jobs_10000.csv
+!**/data/jobs.csv
+
+# Изображения и графики
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# CMake build директории
+build/
+cmake-build-*/
+
+# Временные файлы
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE файлы
+.vscode/
+.idea/
+*.iml
+
