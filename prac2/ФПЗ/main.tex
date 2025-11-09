@@ -1,0 +1,64 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\title{Формальная постановка задачи планирования работ с критерием К2}
+\author{Поваров А.А.}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Формальная постановка задачи}
+
+\subsection*{ДАНО:}
+
+\begin{itemize}
+    \item Множество процессоров $P = \{1, 2, \ldots, M\}$, где $M \in \mathbb{N}$ --- количество процессоров.
+    \item Множество работ $J = \{1, 2, \ldots, N\}$, где $N \in \mathbb{N}$ --- количество работ.
+    \item Для каждой работы $j \in J$ задано время выполнения $p_j \in \mathbb{Z}_{> 0}$.
+    \item Работы независимы и не могут прерываться во время выполнения.
+\end{itemize}
+
+\subsection*{ТРЕБУЕТСЯ:}
+
+Построить матрицу расписания $HP = (hp_{ij}) \in \mathbb{Z}_{\ge 0}^{N\times M}$, где $hp_{ij}=0$ означает, что работа $i$ не назначена на процессор $j$, а $hp_{ij} \in \{1,2,\ldots\}$ — порядковый номер выполнения работы $i$ на процессоре $j$. Ограничения:
+
+\begin{equation*}
+    hp_{ij} \in \mathbb{Z}_{\ge 0}\ \ \forall i,j,
+    \qquad \Big|\{ j \in [1,M] : hp_{ij} > 0 \}\Big| = 1\ \ \forall i \in [1,N].
+\end{equation*}
+
+Явное ограничение на количество назначений (число ненулевых элементов равно $N$):
+\begin{equation*}
+    \sum_{i=1}^{N} \sum_{j=1}^{M} \mathbf{1}[\,hp_{ij} > 0\,] = N,
+\end{equation*}
+где $\mathbf{1}[\cdot]$ — индикаторная функция.
+
+Уникальность и плотность порядков на каждом процессоре $j$:
+\begin{equation*}
+    \forall j \in [1,M],\ \forall i_1 \ne i_2:\ (hp_{i_1 j} > 0 \land hp_{i_2 j} > 0) \Rightarrow hp_{i_1 j} \ne hp_{i_2 j}.
+\end{equation*}
+Обозначим $R_j = \max\limits_{i} hp_{ij}$. Тогда для всех $s = 1,\ldots,R_j$ существует $i$ такое, что $hp_{ij} = s$ (номера образуют непрерывную последовательность от 1 без пропусков).
+
+\subsection*{МИНИМИЗИРУЕМЫЙ КРИТЕРИЙ:}
+
+Вариант 2 (К2): минимизировать сумму времён завершения всех работ. Интуитивно: $C_i = S_i + p_i$, где $S_i$ — время старта, равное сумме длительностей всех работ на том же процессоре, которые выполняются раньше $i$ по их порядковым номерам.
+
+Определим для работы $i$ её процессор как $m(i) = \operatorname*{arg\,max}\limits_{j} \mathbf{1}[hp_{ij} > 0]$ (единственный столбец с положительным $hp_{ij}$). Тогда
+\begin{equation*}
+    S_i(HP) = \sum_{k:\ hp_{k\,m(i)} > 0,\ \ hp_{k\,m(i)} < hp_{i\,m(i)}} p_k, \qquad
+    C_i(HP) = S_i(HP) + p_i.
+\end{equation*}
+
+Критерий К2:
+\begin{equation*}
+    K_2(HP) = \sum_{i=1}^{N} C_i(HP) \;\;\to\;\; \min.
+\end{equation*}
+
+\end{document}
