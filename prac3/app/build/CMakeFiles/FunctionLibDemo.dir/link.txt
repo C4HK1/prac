@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/FunctionLibDemo.dir/main.cpp.o -o FunctionLibDemo  -Wl,-rpath,/home/alex/Desktop/prac/prac3/app/build/functionlib_build functionlib_build/libFunctionLibrary.so 

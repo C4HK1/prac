@@ -1,0 +1,165 @@
+Start testing: Nov 29 15:19 MSK
+----------------------------------------------------------
+1/6 Testing: FunctionFactoryTest.CreatesBasicFunctions
+1/6 Test: FunctionFactoryTest.CreatesBasicFunctions
+Command: "/home/alex/Desktop/prac/prac3/app/build/functionlib_build/FunctionLibraryTests" "--gtest_filter=FunctionFactoryTest.CreatesBasicFunctions" "--gtest_also_run_disabled_tests"
+Directory: /home/alex/Desktop/prac/prac3/app/build/functionlib_build
+"FunctionFactoryTest.CreatesBasicFunctions" start time: Nov 29 15:19 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/alex/Desktop/prac/prac3/app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FunctionFactoryTest.CreatesBasicFunctions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FunctionFactoryTest
+[ RUN      ] FunctionFactoryTest.CreatesBasicFunctions
+[       OK ] FunctionFactoryTest.CreatesBasicFunctions (0 ms)
+[----------] 1 test from FunctionFactoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FunctionFactoryTest.CreatesBasicFunctions" end time: Nov 29 15:19 MSK
+"FunctionFactoryTest.CreatesBasicFunctions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: FunctionFactoryTest.ThrowsOnUnknownType
+2/6 Test: FunctionFactoryTest.ThrowsOnUnknownType
+Command: "/home/alex/Desktop/prac/prac3/app/build/functionlib_build/FunctionLibraryTests" "--gtest_filter=FunctionFactoryTest.ThrowsOnUnknownType" "--gtest_also_run_disabled_tests"
+Directory: /home/alex/Desktop/prac/prac3/app/build/functionlib_build
+"FunctionFactoryTest.ThrowsOnUnknownType" start time: Nov 29 15:19 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/alex/Desktop/prac/prac3/app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FunctionFactoryTest.ThrowsOnUnknownType
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FunctionFactoryTest
+[ RUN      ] FunctionFactoryTest.ThrowsOnUnknownType
+[       OK ] FunctionFactoryTest.ThrowsOnUnknownType (0 ms)
+[----------] 1 test from FunctionFactoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FunctionFactoryTest.ThrowsOnUnknownType" end time: Nov 29 15:19 MSK
+"FunctionFactoryTest.ThrowsOnUnknownType" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: OperatorsTest.PerformsArithmeticAndDerivatives
+3/6 Test: OperatorsTest.PerformsArithmeticAndDerivatives
+Command: "/home/alex/Desktop/prac/prac3/app/build/functionlib_build/FunctionLibraryTests" "--gtest_filter=OperatorsTest.PerformsArithmeticAndDerivatives" "--gtest_also_run_disabled_tests"
+Directory: /home/alex/Desktop/prac/prac3/app/build/functionlib_build
+"OperatorsTest.PerformsArithmeticAndDerivatives" start time: Nov 29 15:19 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/alex/Desktop/prac/prac3/app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OperatorsTest.PerformsArithmeticAndDerivatives
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OperatorsTest
+[ RUN      ] OperatorsTest.PerformsArithmeticAndDerivatives
+[       OK ] OperatorsTest.PerformsArithmeticAndDerivatives (0 ms)
+[----------] 1 test from OperatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OperatorsTest.PerformsArithmeticAndDerivatives" end time: Nov 29 15:19 MSK
+"OperatorsTest.PerformsArithmeticAndDerivatives" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: OperatorsTest.RejectsUnsupportedTypes
+4/6 Test: OperatorsTest.RejectsUnsupportedTypes
+Command: "/home/alex/Desktop/prac/prac3/app/build/functionlib_build/FunctionLibraryTests" "--gtest_filter=OperatorsTest.RejectsUnsupportedTypes" "--gtest_also_run_disabled_tests"
+Directory: /home/alex/Desktop/prac/prac3/app/build/functionlib_build
+"OperatorsTest.RejectsUnsupportedTypes" start time: Nov 29 15:19 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/alex/Desktop/prac/prac3/app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OperatorsTest.RejectsUnsupportedTypes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OperatorsTest
+[ RUN      ] OperatorsTest.RejectsUnsupportedTypes
+[       OK ] OperatorsTest.RejectsUnsupportedTypes (0 ms)
+[----------] 1 test from OperatorsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OperatorsTest.RejectsUnsupportedTypes" end time: Nov 29 15:19 MSK
+"OperatorsTest.RejectsUnsupportedTypes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: FunctionDerivativeTest.HandlesCompositeExpressions
+5/6 Test: FunctionDerivativeTest.HandlesCompositeExpressions
+Command: "/home/alex/Desktop/prac/prac3/app/build/functionlib_build/FunctionLibraryTests" "--gtest_filter=FunctionDerivativeTest.HandlesCompositeExpressions" "--gtest_also_run_disabled_tests"
+Directory: /home/alex/Desktop/prac/prac3/app/build/functionlib_build
+"FunctionDerivativeTest.HandlesCompositeExpressions" start time: Nov 29 15:19 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/alex/Desktop/prac/prac3/app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FunctionDerivativeTest.HandlesCompositeExpressions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FunctionDerivativeTest
+[ RUN      ] FunctionDerivativeTest.HandlesCompositeExpressions
+[       OK ] FunctionDerivativeTest.HandlesCompositeExpressions (0 ms)
+[----------] 1 test from FunctionDerivativeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FunctionDerivativeTest.HandlesCompositeExpressions" end time: Nov 29 15:19 MSK
+"FunctionDerivativeTest.HandlesCompositeExpressions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: GradientDescentTest.FindsRootForQuadratic
+6/6 Test: GradientDescentTest.FindsRootForQuadratic
+Command: "/home/alex/Desktop/prac/prac3/app/build/functionlib_build/FunctionLibraryTests" "--gtest_filter=GradientDescentTest.FindsRootForQuadratic" "--gtest_also_run_disabled_tests"
+Directory: /home/alex/Desktop/prac/prac3/app/build/functionlib_build
+"GradientDescentTest.FindsRootForQuadratic" start time: Nov 29 15:19 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/alex/Desktop/prac/prac3/app/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = GradientDescentTest.FindsRootForQuadratic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GradientDescentTest
+[ RUN      ] GradientDescentTest.FindsRootForQuadratic
+[       OK ] GradientDescentTest.FindsRootForQuadratic (0 ms)
+[----------] 1 test from GradientDescentTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GradientDescentTest.FindsRootForQuadratic" end time: Nov 29 15:19 MSK
+"GradientDescentTest.FindsRootForQuadratic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 29 15:19 MSK

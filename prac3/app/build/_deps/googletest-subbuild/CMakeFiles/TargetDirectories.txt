@@ -1,0 +1,3 @@
+/home/alex/Desktop/prac/prac3/app/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/alex/Desktop/prac/prac3/app/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/alex/Desktop/prac/prac3/app/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

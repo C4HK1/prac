@@ -1,0 +1,7 @@
+FunctionFactoryTest.CreatesBasicFunctions 2 0.00349887
+FunctionFactoryTest.ThrowsOnUnknownType 2 0.00376764
+OperatorsTest.PerformsArithmeticAndDerivatives 2 0.00340376
+OperatorsTest.RejectsUnsupportedTypes 2 0.00378894
+FunctionDerivativeTest.HandlesCompositeExpressions 2 0.0026055
+GradientDescentTest.FindsRootForQuadratic 2 0.00266742
+---

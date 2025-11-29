@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule

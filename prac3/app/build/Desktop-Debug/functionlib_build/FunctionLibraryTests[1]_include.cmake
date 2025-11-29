@@ -1,0 +1,5 @@
+if(EXISTS "/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/functionlib_build/FunctionLibraryTests[1]_tests.cmake")
+  include("/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/functionlib_build/FunctionLibraryTests[1]_tests.cmake")
+else()
+  add_test(FunctionLibraryTests_NOT_BUILT FunctionLibraryTests_NOT_BUILT)
+endif()

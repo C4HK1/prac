@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "functionlib_build",
+		"source" : "/home/alex/Desktop/prac/prac3/functionlib"
+	}
+}

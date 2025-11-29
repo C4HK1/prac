@@ -1,0 +1,1 @@
+/usr/bin/g++-13 -DQT_QML_DEBUG -g CMakeFiles/FunctionLibraryTests.dir/tests/FunctionLibraryTests.cpp.o -o FunctionLibraryTests  -Wl,-rpath,/home/alex/Desktop/prac/prac3/app/build/Desktop-Debug/functionlib_build libFunctionLibrary.so ../lib/libgtest_main.a ../lib/libgtest.a 
